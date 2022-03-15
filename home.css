@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul{
+    background-color: rgb(255, 81, 0);
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-right-radius: 5px;
+    position: relative;
+}
+
+
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li div{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+.menu{
+    width: fit-content;
+}
+
+.menu a i{
+    color: white;
+    font-size: 30px;
+    margin-left: 9px;
+    text-align: center;
+}
+
+.search-bar{
+    width: 200px;
+    height: 30px;
+    background: linear-gradient(90deg, white 0%, rgb(168, 168, 168) 100%);
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-left: 40px;
+    margin-right: 40%;
+}
+
+.search-bar a{
+    color: rgb(175, 175, 175);
+    font-family: sans-serif;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.nav-icons{
+    width: fit-content;
+}
+
+.nav-icon{
+    display: inline-block;
+    background: white;
+    border-radius: 10px;
+    padding: 5px 5px;
+    font-weight: 700;
+    font-family: sans-serif;
+    color: black;
+    margin: 0 10px;
+}
+
+.user{
+    margin-right: 10px;
+}
+
+.user-logo a i{
+    color: white;
+    font-size: 25px;
+}
+
+.dashboard{
+    background-color: black;
+    height: 93.3vh;
+    width: 24%;
+    transform: translateX(-25em);
+    transition: 0.7s ease-in all;
+    position: absolute;
+
+}
+
+ul:hover + .dashboard{
+    transform: translateX(0em);
+}
+
+.portal-title{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    padding: 5px 0 0 5px;
+}
+
+.menu-link{
+    color: white;
+    font-size: 20px;
+}
+
+.menu-icon{
+    font-size: 25px;
+    margin: 29px 25px 0 14px;
+}
+
+.menu-link div{
+    display: inline-block;
+}
+
+.menu-desc{
+    /* color: white; */
+    font-family: sans-serif;
+}
+
+.logout-link{
+    margin-top: 11.3em;
+}
+
+.calender-bg{
+    height: 70vh;
+    width: 80vw;
+    margin: auto;
+    object-fit: contain;
+    margin-top: 3em;
+}
+
+.calender-bg img{
+    width: 100%;
+}
+
