@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background: #FDF7F4;
+}
+
 nav ul{
     background-color: rgb(255, 81, 0);
     height: 50px;
@@ -15,7 +19,20 @@ nav ul{
     position: relative;
 }
 
+.event-btn{
+    border:none;
+    background: #534A4A;
+border-radius: 3rem;
+color: #fff;
+margin: 2rem auto;
+font-size: 2rem;
+padding: 1rem;
+font-weight: 700;
+display: flex;
+/* margin: 2rem; */
+justify-content: center;
 
+}
 
 nav ul li{
     display: inline;
@@ -43,11 +60,17 @@ nav ul li a{
 .search-bar{
     width: 200px;
     height: 30px;
-    background: linear-gradient(90deg, white 0%, rgb(168, 168, 168) 100%);
+    background: linear-gradient(90.27deg, rgba(255, 255, 255, 0.7) 0.23%, rgba(255, 255, 255, 0.266) 100%);
+    color: #fff ;
+    border-radius: 25px;
     border-radius: 10px;
     padding-top: 5px;
     margin-left: 40px;
     margin-right: 40%;
+}
+
+.search-bar a{
+    color: rgba(255, 255, 255);
 }
 
 .search-bar a{
@@ -85,7 +108,7 @@ nav ul li a{
     background-color: black;
     height: 93.3vh;
     width: 24%;
-    transform: translateX(-25em);
+    transform: translateX(-35em);
     transition: 0.7s ease-in all;
     position: absolute;
 
@@ -129,11 +152,13 @@ ul:hover + .dashboard{
     height: 70vh;
     width: 80vw;
     margin: auto;
-    object-fit: contain;
+    
+    /* object-fit: contain; */
+    display: flex;
+    justify-content: center;
     margin-top: 3em;
 }
 
 .calender-bg img{
-    width: 100%;
+    width: 80%;
 }
-
